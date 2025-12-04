@@ -2448,3 +2448,87 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 [2025-12-04 16:08:31,544] [INFO] [uvicorn.error] Waiting for application shutdown.
 [2025-12-04 16:08:31,544] [INFO] [uvicorn.error] Application shutdown complete.
 [2025-12-04 16:08:31,545] [INFO] [uvicorn.error] Finished server process [18824]
+[2025-12-04 23:42:28,333] [INFO] [uvicorn.error] Started server process [22076]
+[2025-12-04 23:42:28,334] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-12-04 23:42:28,334] [INFO] [uvicorn.error] Application startup complete.
+[2025-12-04 23:43:17,587] [INFO] [uvicorn.error] Shutting down
+[2025-12-04 23:43:17,697] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-12-04 23:43:17,697] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-12-04 23:43:17,697] [INFO] [uvicorn.error] Finished server process [22076]
+[2025-12-04 23:43:31,805] [INFO] [uvicorn.error] Started server process [25188]
+[2025-12-04 23:43:31,805] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-12-04 23:43:31,806] [INFO] [uvicorn.error] Application startup complete.
+[2025-12-04 23:43:42,145] [INFO] [app] GET / - 200 (1.01ms)
+[2025-12-04 23:43:42,147] [INFO] [uvicorn.access] 127.0.0.1:51602 - "GET / HTTP/1.1" 200
+[2025-12-04 23:43:42,170] [INFO] [app] GET /favicon.ico - 404 (1.00ms)
+[2025-12-04 23:43:42,170] [INFO] [uvicorn.access] 127.0.0.1:51602 - "GET /favicon.ico HTTP/1.1" 404
+[2025-12-04 23:43:45,436] [INFO] [app] GET /docs - 200 (1.00ms)
+[2025-12-04 23:43:45,437] [INFO] [uvicorn.access] 127.0.0.1:51602 - "GET /docs HTTP/1.1" 200
+[2025-12-04 23:43:45,552] [INFO] [app] GET /openapi.json - 200 (40.24ms)
+[2025-12-04 23:43:45,552] [INFO] [uvicorn.access] 127.0.0.1:51602 - "GET /openapi.json HTTP/1.1" 200
+[2025-12-04 23:43:55,480] [ERROR] [app] HTTPException: Not authenticated
+[2025-12-04 23:43:55,480] [INFO] [app] GET /users/admin-list - 401 (2.52ms)
+[2025-12-04 23:43:55,480] [INFO] [uvicorn.access] 127.0.0.1:60920 - "GET /users/admin-list HTTP/1.1" 401
+[2025-12-04 23:57:34,190] [INFO] [uvicorn.error] Shutting down
+[2025-12-04 23:57:34,299] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-12-04 23:57:34,299] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-12-04 23:57:34,299] [INFO] [uvicorn.error] Finished server process [25188]
+[2025-12-04 23:57:38,083] [INFO] [uvicorn.error] Started server process [26080]
+[2025-12-04 23:57:38,083] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-12-04 23:57:38,083] [INFO] [uvicorn.error] Application startup complete.
+[2025-12-04 23:57:42,960] [INFO] [app] GET /docs - 200 (1.00ms)
+[2025-12-04 23:57:42,960] [INFO] [uvicorn.access] 127.0.0.1:57813 - "GET /docs HTTP/1.1" 200
+[2025-12-04 23:57:43,279] [INFO] [app] GET /openapi.json - 200 (63.89ms)
+[2025-12-04 23:57:43,279] [INFO] [uvicorn.access] 127.0.0.1:57813 - "GET /openapi.json HTTP/1.1" 200
+[2025-12-04 23:57:52,848] [ERROR] [app] HTTPException: Not authenticated
+[2025-12-04 23:57:52,848] [INFO] [app] GET /users/admin-list - 401 (2.05ms)
+[2025-12-04 23:57:52,849] [INFO] [uvicorn.access] 127.0.0.1:58653 - "GET /users/admin-list HTTP/1.1" 401
+[2025-12-05 00:01:51,356] [INFO] [uvicorn.error] Shutting down
+[2025-12-05 00:01:51,464] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-12-05 00:01:51,464] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-12-05 00:01:51,464] [INFO] [uvicorn.error] Finished server process [26080]
+[2025-12-05 00:01:52,875] [INFO] [uvicorn.error] Started server process [20712]
+[2025-12-05 00:01:52,876] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-12-05 00:01:52,876] [INFO] [uvicorn.error] Application startup complete.
+[2025-12-05 00:02:23,521] [INFO] [app] GET /docs - 200 (0.00ms)
+[2025-12-05 00:02:23,521] [INFO] [uvicorn.access] 127.0.0.1:57940 - "GET /docs HTTP/1.1" 200
+[2025-12-05 00:02:23,717] [INFO] [app] GET /openapi.json - 200 (37.27ms)
+[2025-12-05 00:02:23,718] [INFO] [uvicorn.access] 127.0.0.1:57940 - "GET /openapi.json HTTP/1.1" 200
+[2025-12-05 00:02:29,033] [ERROR] [app] HTTPException: Not authenticated
+[2025-12-05 00:02:29,034] [INFO] [app] GET /users/admin-list - 401 (2.51ms)
+[2025-12-05 00:02:29,034] [INFO] [uvicorn.access] 127.0.0.1:62778 - "GET /users/admin-list HTTP/1.1" 401
+[2025-12-05 00:02:38,318] [INFO] [uvicorn.error] Shutting down
+[2025-12-05 00:02:38,429] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-12-05 00:02:38,429] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-12-05 00:02:38,429] [INFO] [uvicorn.error] Finished server process [20712]
+[2025-12-05 00:02:41,757] [INFO] [uvicorn.error] Started server process [21976]
+[2025-12-05 00:02:41,757] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-12-05 00:02:41,758] [INFO] [uvicorn.error] Application startup complete.
+[2025-12-05 00:02:46,859] [INFO] [app] GET / - 200 (1.99ms)
+[2025-12-05 00:02:46,860] [INFO] [uvicorn.access] 127.0.0.1:54038 - "GET / HTTP/1.1" 200
+[2025-12-05 00:02:53,249] [INFO] [app] GET /docs - 200 (1.01ms)
+[2025-12-05 00:02:53,249] [INFO] [uvicorn.access] 127.0.0.1:58764 - "GET /docs HTTP/1.1" 200
+[2025-12-05 00:02:53,486] [INFO] [app] GET /openapi.json - 200 (35.24ms)
+[2025-12-05 00:02:53,486] [INFO] [uvicorn.access] 127.0.0.1:58764 - "GET /openapi.json HTTP/1.1" 200
+[2025-12-05 00:03:10,435] [INFO] [app] GET /users/ - 200 (190.86ms)
+[2025-12-05 00:03:10,435] [INFO] [uvicorn.access] 127.0.0.1:65402 - "GET /users/ HTTP/1.1" 200
+[2025-12-05 00:03:18,827] [ERROR] [app] HTTPException: Not authenticated
+[2025-12-05 00:03:18,828] [INFO] [app] GET /users/admin-list - 401 (2.00ms)
+[2025-12-05 00:03:18,828] [INFO] [uvicorn.access] 127.0.0.1:49669 - "GET /users/admin-list HTTP/1.1" 401
+[2025-12-05 00:03:35,590] [ERROR] [app] HTTPException: Not authenticated
+[2025-12-05 00:03:35,591] [INFO] [app] GET /users/admin-list - 401 (2.00ms)
+[2025-12-05 00:03:35,591] [INFO] [uvicorn.access] 127.0.0.1:58709 - "GET /users/admin-list HTTP/1.1" 401
+[2025-12-05 00:03:57,333] [WARNING] [passlib.handlers.bcrypt] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\Rm1 Coders Project Files\fastAPI\nav-routes\routes-api\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+[2025-12-05 00:03:57,648] [INFO] [app] POST /auth/login - 200 (320.47ms)
+[2025-12-05 00:03:57,648] [INFO] [uvicorn.access] 127.0.0.1:51307 - "POST /auth/login HTTP/1.1" 200
+[2025-12-05 00:04:36,862] [INFO] [app] GET /users/admin-list - 200 (5.08ms)
+[2025-12-05 00:04:36,862] [INFO] [uvicorn.access] 127.0.0.1:64681 - "GET /users/admin-list HTTP/1.1" 200
+[2025-12-05 00:05:07,631] [INFO] [uvicorn.error] Shutting down
+[2025-12-05 00:05:07,741] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-12-05 00:05:07,741] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-12-05 00:05:07,741] [INFO] [uvicorn.error] Finished server process [21976]
