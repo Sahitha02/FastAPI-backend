@@ -38,8 +38,9 @@ app.add_exception_handler(Exception, general_exception_handler)
 
 # CORS settings
 origins = [
-    "http://localhost:5173",
-    "http://localhost:5174",
+    # "http://localhost:5173",
+    # "http://localhost:5174",
+    "*"
 ]
 
 app.add_middleware(
